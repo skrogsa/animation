@@ -1,0 +1,65 @@
+:root {
+    --primaryBlack: #0d0d0d;
+    --primaryWhite: #fdfdfd;
+    
+    --primaryColor: green;
+    --secondaryColor: forestgreen;
+    --accentColor: lime;
+
+    --primaryFontFamily: Helvetica;
+    --secondaryFontFamily: Impact;
+
+    --fontsizeHeading: ;
+}
+
+/* Global CSS selectors */
+
+/* Flex classes */
+.flexRow {
+    display: flex;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Personal styles */
+.listStyleRemover {
+    list-style-type: none;
+}
+
+.noUnderscore {
+    text-decoration: none;
+}
+
+/* Desse elementene funker kun om elementet også har flex klassen */
+.justifyCenter {
+    justify-content: center;
+}
+
+.justifyBetween {
+    justify-content: space-between;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+
+/* Responsive sizes */
+.widthResponsiveSmall {
+    min-width: 50%;
+    min-height: 50%;
+}
+
+.widthResponsiveBig {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* HEADER */
+
+/* MAIN */
+
+/* FOOTER */
