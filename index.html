@@ -4,23 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="color.css">
+    <link rel="stylesheet" href="font.css">
     <title>Document</title>
 </head>
-<body>
+<body class="body">
     <!-- Header -->
-    <header class="header flexRow">
+    <header class="header flexRow justifyCenter">
         <div> <!-- ET IKON --> </div>
     
         <nav class="headerNav">
-            <ul class="headerNavUl">
-                <a class="headerNavA" href="">
-                    <li class="headerNavLi"></li>
+            <ul class="headerNavUl flexRow">
+                <a class="headerNavA" href="#home">
+                    <li class="headerNavLi">Hjem</li>
                 </a>
-                <a class="headerNavA" href="">
-                    <li class="headerNavLi"></li>
+                <a class="headerNavA" href="#projects">
+                    <li class="headerNavLi">Prosjekter</li>
                 </a>
-                <a class="headerNavA" href="">
-                    <li class="headerNavLi"></li>
+                <a class="headerNavA" href="#about">
+                    <li class="headerNavLi">Om meg</li>
                 </a>
             </ul>
         </nav>
@@ -28,19 +30,23 @@
 
     <!-- Main -->
     <main class="main flexColumn">
-        <section class="section">
+        <section class="section  flexRow justifyCenter" id="home">
             <!-- Hjem / landingsside -->
+            <h1>Hei!</h1>
+            <h2></h2>
         </section>
-        <section class="section">
+        <section class="section flexRow justifyCenter" id="projects">
             <!-- Om mine prosjekter -->
+            <h2>Prosjekter</h2>
         </section>
-        <section class="section">
+        <section class="section flexRow justifyCenter" id="about">
             <!-- Om meg -->
+            <h2>Om meg</h2>
         </section>
     </main>
 
     <!-- Footer -->
-    <footer class="footer flexRow">
+    <footer class="footer flexRow justifyCenter">
         <div> <!-- Ikon eller logo --> </div>
 
         <nav class="footerNav">
@@ -57,7 +63,7 @@
             </ul>
         </nav>
         <div>
-            <p>Laget av Silje (c) 2023 </p>
+            <p>Laget av Silje &copy; 2023 </p>
         </div>
     </footer>
 </body>
