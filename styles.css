@@ -60,9 +60,10 @@ nav > ul > li > a:visited {
     margin: 0;
     position: sticky;
     top: 0;
-    background-color: var(--secondaryColor);
+    background-color: var(--primaryColor);
     color: var(--primaryWhite);
     font-family: var(--primaryFontFamily);
+    border-bottom: 2px dashed var(--secondaryColor);
 }
 
 /* .headerNav {
@@ -71,17 +72,81 @@ nav > ul > li > a:visited {
 
 .headerNavUl {
     list-style-type: none;
-    gap: 10rem;
+    gap: 5rem;
 }
 
+#homeA {
+    text-decoration: none;
+    color: var(--primaryWhite);
+    letter-spacing: 4px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+
+#projectsA {
+    text-decoration: none;
+    color: var(--primaryWhite);
+    letter-spacing: 4px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+
+#aboutA {
+    text-decoration: none;
+    color: var(--primaryWhite);
+    letter-spacing: 4px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+
+#homeA:hover {
+    color: var(--primaryWhite);
+    background-color: var(--accentColor1);
+    box-shadow: 0 0 10px var(--accentColor1), 0 0 40px var(--accentColor1), 0 0 80px var(--accentColor1);
+    transition-delay: 0.1s;
+}
+
+#projectsA:hover {
+    color: var(--primaryWhite);
+    background-color: var(--accentColor2);
+    box-shadow: 0 0 10px var(--accentColor2), 0 0 40px var(--accentColor2), 0 0 80px var(--accentColor2);
+    transition-delay: 0.1s;
+}
+
+#aboutA:hover {
+    color: var(--primaryWhite);
+    background-color: var(--accentColor3);
+    box-shadow: 0 0 10px var(--accentColor3), 0 0 40px var(--accentColor3), 0 0 80px var(--accentColor3);
+    transition-delay: 0.1s;
+}
+
+/*
 .headerNavA {
     text-decoration: none;
     color: var(--primaryWhite);
+    letter-spacing: 4px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+
+.headerNavA:hover {
+    color: var(--primaryWhite);
+    background-color: var(--accentColor1);
+    box-shadow: 0 0 10px var(--accentColor1), 0 0 40px var(--accentColor1), 0 0 80px var(--accentColor1);
 }
 
 .headerNavA:visited {
-        color: var(--primaryWhite);
+    text-decoration: none;
+    color: var(--primaryWhite);
+    letter-spacing: 4px;
+    text-transform: uppercase;
 }
+
+*/
 
 /* .headerNavLi {
   
@@ -95,13 +160,76 @@ nav > ul > li > a:visited {
 
 .section {
     min-height: 100vh;
-    padding-top: 70px;
+    padding-top: 130px;
+}
+
+#intro {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--primaryWhite);
+    font-size: var(--fontsizeIntro);
+    padding: 0;
+    margin: 0;
+  }
+
+  h1 {
+    font-family: var(--secondaryFontFamily);
+    font-size: var(--fontsizeHeadingOne);
+    color: var(--accentColor);
+    padding: 0;
+    margin: 0;
+}
+
+.linear-wipe {
+    text-align: center;
+    
+    background: linear-gradient(to right, #FFF 20%, #FF0 40%, #FF0 60%, #FFF 80%);
+    background-size: 200% auto;
+    
+    color: #000;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    animation: shine 1s linear infinite;
+    @keyframes shine {
+      to {
+        background-position: 200% center;
+      }
+    }
+  }
+
+  /* animasjon funker ikke? pga textfill / webkit? Bytte ut med glowing gradient button effekt? */
+
+h2 {
+    font-family: var(--secondaryFontFamily);
+    font-size: var(--fontsizeHeadingTwo);
+    color: var(--primaryWhite);
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: var(--secondaryFontFamily);
+    font-size: var(--fontsizeHeadingTwo);
+}
+
+p {
+    font-family: var(--primaryFontFamily);
+    font-size: var(--fontsizeParagraph);
+}
+
+#home {
+    padding-top: 0px;
+    margin-top: 0px;
+    align-items: center;
 }
 
 /* FOOTER */
 .footer {
-    background-color: var(--secondaryColor);
+    background-color: var(--primaryColor);
     color: var(--primaryWhite);
+    border-top: 2px dashed var(--secondaryColor);
 }
 
 /* .footerNav {

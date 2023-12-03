@@ -1,32 +1,10 @@
 :root {
     --primaryFontFamily: Helvetica;
-    --secondaryFontFamily: Helvetica;
+    --secondaryFontFamily: 'Lilita One';
 
-    --fontsizeHeadingOne: 2.5rem;
-    --fontsizeHeadingTwo: 1.5rem;
+    --fontsizeHeadingOne: 9.5rem;
+    --fontsizeHeadingTwo: 3.5rem;
     --fontsizeParagraph: 1rem;
+    --fontsizeIntro: 2rem;
 
 }
-
-h1 {
-    font-family: var(--secondaryFontFamily);
-    font-size: var(--fontsizeHeadingOne);
-    color: var(--accentColor);
-}
-
-h2 {
-    font-family: var(--secondaryFontFamily);
-    font-size: var(--fontsizeHeadingTwo);
-    color: var(--primaryWhite);
-}
-
-h3 {
-    font-family: var(--secondaryFontFamily);
-    font-size: var(--fontsizeHeadingTwo);
-}
-
-p {
-    font-family: var(--primaryFontFamily);
-    font-size: var(--fontsizeParagraph);
-}
-
