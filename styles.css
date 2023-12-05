@@ -163,6 +163,7 @@ nav > ul > li > a:visited {
     padding-top: 130px;
 }
 
+/* Introduksjonsteksten på forsiden */
 #intro {
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -171,6 +172,8 @@ nav > ul > li > a:visited {
     padding: 0;
     margin: 0;
   }
+
+/* Navn / overskriften på forsiden */
 
   h1 {
     font-family: var(--secondaryFontFamily);
@@ -311,6 +314,8 @@ p {
 /* .footerNavLi {
 
 } */
+
+/* Animasjon av footer copyright tekst */
 
 #copyright {
     position: relative;
